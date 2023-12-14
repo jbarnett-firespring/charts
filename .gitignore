@@ -17,9 +17,9 @@ auto_config.py
 .vscode
 .idea
 Gemfile.lock
-Chart.lock
-chart.lock
-*/chart.lock
+#Chart.lock
+#chart.lock
+#*/chart.lock
 .ignore/
 /docs/api/_build/
 /docs/userguide/_build/
@@ -46,8 +46,8 @@ private_values.yaml
 temp/
 charts/library/common-test/charts/
 .cr-release-packages/
-charts/**/charts/*.tgz
-charts/**/render/*
+#charts/**/charts/*.tgz
+#charts/**/render/*
 catalog/
 dh_catalog/
 chartsrepo/
