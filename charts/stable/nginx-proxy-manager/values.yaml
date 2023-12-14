@@ -29,11 +29,11 @@ persistence:
   data:
     enabled: true
     mountPath: /data
-    size: 256Gi
+    size: 5Gi
   letsencrypt:
     enabled: true
     mountPath: /etc/letsencrypt
-    size: 256Gi
+    size: 5Gi
 mariadb:
   enabled: true
   mariadbUsername: npm
